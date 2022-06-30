@@ -1,0 +1,172 @@
+
+body {
+    background-color: #F4F2EF;
+    margin: 0px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.text-box {
+    max-width: 350px;
+    min-width: 200px;
+}
+
+ul {
+    list-style: none;
+    margin: none;
+    padding: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2E271F;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 18px;
+    transition: font-size .5s;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    margin: 8px 0px;
+    color: #2E271F;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p {
+    margin: 8px 0px;
+    color: #7b6955;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 18px;
+}
+
+.caption {
+    font-size: 20px;
+}
+
+button {
+    background-color: #474035;
+    color: #F4F2EF;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 3px 3px 3px #a59a8c;
+    background-image: linear-gradient(to bottom right, #628195, #2F3C44);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position .5s;
+    
+}
+
+button:hover {
+    background-position: right;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.header img {
+    max-width: 200px;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 100px;
+}
+
+.hero img {
+    max-width: 400px;
+}
+
+.resident-picks {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.resident-picks-drinks {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.resident-picks-drinks img {
+    width: 180px;
+    margin: 15px 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #a59a8c;
+    transition: width .5s;
+}
+
+.resident-picks-drinks img:hover {
+    width: 200px;
+}
+
+.quote {
+    margin: 150px auto;
+    background-image: linear-gradient(to bottom right, #3a515f, #2F3C44);
+}
+
+#josh-quote {
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 80px 0px;
+    color: #F4F2EF;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 150px;
+    padding: 50px;
+    border: 4px solid #2E271F;
+    border-radius: 10px;
+}
+
+.footer #footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #2E271F;
+    color: #F4F2EF;
+}
